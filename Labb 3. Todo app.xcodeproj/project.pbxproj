@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		3A50948423D5BD7A004F182E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A50948323D5BD7A004F182E /* AppDelegate.m */; };
 		3A50948723D5BD7A004F182E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A50948623D5BD7A004F182E /* SceneDelegate.m */; };
-		3A50948A23D5BD7A004F182E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A50948923D5BD7A004F182E /* ViewController.m */; };
 		3A50948D23D5BD7A004F182E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A50948B23D5BD7A004F182E /* Main.storyboard */; };
 		3A50948F23D5BD7B004F182E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A50948E23D5BD7B004F182E /* Assets.xcassets */; };
 		3A50949223D5BD7B004F182E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A50949023D5BD7B004F182E /* LaunchScreen.storyboard */; };
 		3A50949523D5BD7B004F182E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A50949423D5BD7B004F182E /* main.m */; };
 		3A50949F23D5BD7B004F182E /* Labb_3__Todo_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A50949E23D5BD7B004F182E /* Labb_3__Todo_appTests.m */; };
 		3A5094AA23D5BD7B004F182E /* Labb_3__Todo_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5094A923D5BD7B004F182E /* Labb_3__Todo_appUITests.m */; };
+		3A5094BC23D5CA2F004F182E /* NewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5094BB23D5CA2F004F182E /* NewTaskViewController.m */; };
+		3AD2A14F23D5DC0900A293A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2A14E23D5DC0900A293A7 /* ViewController.m */; };
+		3AD2A15223D5EB6600A293A7 /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2A15123D5EB6600A293A7 /* Todo.m */; };
+		3AD2A15523D5EE4100A293A7 /* TodoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2A15423D5EE4100A293A7 /* TodoList.m */; };
+		3AD2A15823D724D700A293A7 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2A15723D724D700A293A7 /* Singleton.m */; };
+		3AD2A16123D763B100A293A7 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2A16023D763B100A293A7 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +46,6 @@
 		3A50948323D5BD7A004F182E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3A50948523D5BD7A004F182E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		3A50948623D5BD7A004F182E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		3A50948823D5BD7A004F182E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3A50948923D5BD7A004F182E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3A50948C23D5BD7A004F182E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A50948E23D5BD7B004F182E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A50949123D5BD7B004F182E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,18 @@
 		3A5094A523D5BD7B004F182E /* Labb 3. Todo appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Labb 3. Todo appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5094A923D5BD7B004F182E /* Labb_3__Todo_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Labb_3__Todo_appUITests.m; sourceTree = "<group>"; };
 		3A5094AB23D5BD7B004F182E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A5094BA23D5CA2F004F182E /* NewTaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewTaskViewController.h; sourceTree = "<group>"; };
+		3A5094BB23D5CA2F004F182E /* NewTaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTaskViewController.m; sourceTree = "<group>"; };
+		3AD2A14D23D5DC0900A293A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3AD2A14E23D5DC0900A293A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3AD2A15023D5EB6600A293A7 /* Todo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		3AD2A15123D5EB6600A293A7 /* Todo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		3AD2A15323D5EE4100A293A7 /* TodoList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoList.h; sourceTree = "<group>"; };
+		3AD2A15423D5EE4100A293A7 /* TodoList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoList.m; sourceTree = "<group>"; };
+		3AD2A15623D724D700A293A7 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		3AD2A15723D724D700A293A7 /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		3AD2A15F23D763B100A293A7 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		3AD2A16023D763B100A293A7 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +122,20 @@
 				3A50948223D5BD7A004F182E /* AppDelegate.h */,
 				3A50948323D5BD7A004F182E /* AppDelegate.m */,
 				3A50948523D5BD7A004F182E /* SceneDelegate.h */,
+				3AD2A14D23D5DC0900A293A7 /* ViewController.h */,
+				3AD2A14E23D5DC0900A293A7 /* ViewController.m */,
+				3AD2A15023D5EB6600A293A7 /* Todo.h */,
+				3AD2A15123D5EB6600A293A7 /* Todo.m */,
+				3AD2A15323D5EE4100A293A7 /* TodoList.h */,
+				3AD2A15423D5EE4100A293A7 /* TodoList.m */,
+				3AD2A15623D724D700A293A7 /* Singleton.h */,
+				3AD2A15723D724D700A293A7 /* Singleton.m */,
 				3A50948623D5BD7A004F182E /* SceneDelegate.m */,
-				3A50948823D5BD7A004F182E /* ViewController.h */,
-				3A50948923D5BD7A004F182E /* ViewController.m */,
 				3A50948B23D5BD7A004F182E /* Main.storyboard */,
+				3AD2A15F23D763B100A293A7 /* TableViewCell.h */,
+				3AD2A16023D763B100A293A7 /* TableViewCell.m */,
+				3A5094BA23D5CA2F004F182E /* NewTaskViewController.h */,
+				3A5094BB23D5CA2F004F182E /* NewTaskViewController.m */,
 				3A50948E23D5BD7B004F182E /* Assets.xcassets */,
 				3A50949023D5BD7B004F182E /* LaunchScreen.storyboard */,
 				3A50949323D5BD7B004F182E /* Info.plist */,
@@ -267,10 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A50948A23D5BD7A004F182E /* ViewController.m in Sources */,
 				3A50948423D5BD7A004F182E /* AppDelegate.m in Sources */,
+				3AD2A15823D724D700A293A7 /* Singleton.m in Sources */,
+				3AD2A15223D5EB6600A293A7 /* Todo.m in Sources */,
 				3A50949523D5BD7B004F182E /* main.m in Sources */,
+				3AD2A16123D763B100A293A7 /* TableViewCell.m in Sources */,
+				3A5094BC23D5CA2F004F182E /* NewTaskViewController.m in Sources */,
+				3AD2A15523D5EE4100A293A7 /* TodoList.m in Sources */,
 				3A50948723D5BD7A004F182E /* SceneDelegate.m in Sources */,
+				3AD2A14F23D5DC0900A293A7 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
