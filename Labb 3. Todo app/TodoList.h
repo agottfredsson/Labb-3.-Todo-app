@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TodoList : NSObject
 
 @property (nonatomic) NSMutableArray *todoItems;
+@property (nonatomic) NSMutableArray *completedItems;
+@property (nonatomic) NSMutableArray *favoriteItems;
 - (void) createTodo:(NSString*) name;
 
 - (NSInteger) getSize;

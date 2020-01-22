@@ -17,6 +17,8 @@
     self = [super init];
     if (self) {
         self.todoItems = [NSMutableArray new];
+        self.completedItems = [NSMutableArray new];
+        self.favoriteItems = [NSMutableArray new];
         
     }
     return self;
@@ -24,6 +26,10 @@
 
 
 
+/*- (void)createTodo:(NSString*) name {
+        Todo *todo = [[Todo alloc] initWithName:name];
+        [_todoItems addObject:todo];
+}*/
 - (void)createTodo:(NSString*) name {
         Todo *todo = [[Todo alloc] initWithName:name];
         [_todoItems addObject:todo];

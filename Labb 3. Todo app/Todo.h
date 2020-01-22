@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) BOOL isFinished;
 - (instancetype)initWithName:(NSString *) name;
 - (NSString*) getTodo;
+- (BOOL) isFinished;
 
 
 @end

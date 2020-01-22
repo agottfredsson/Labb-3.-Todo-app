@@ -15,7 +15,7 @@ static Singleton *instance = nil;
 + (id) Instance {
     if (instance == nil) {
         instance = [[Singleton alloc] init];
-        //[[Singleton Instance] SetData:@""];
+        
         
     }
     

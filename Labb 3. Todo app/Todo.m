@@ -25,6 +25,10 @@
     return self.name;
 }
 
+- (BOOL) isFinished {
+    return NO;
+}
+
 
 
 @end

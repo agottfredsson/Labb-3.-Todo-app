@@ -20,7 +20,7 @@
 		3AD2A15223D5EB6600A293A7 /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2A15123D5EB6600A293A7 /* Todo.m */; };
 		3AD2A15523D5EE4100A293A7 /* TodoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2A15423D5EE4100A293A7 /* TodoList.m */; };
 		3AD2A15823D724D700A293A7 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2A15723D724D700A293A7 /* Singleton.m */; };
-		3AD2A16123D763B100A293A7 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2A16023D763B100A293A7 /* TableViewCell.m */; };
+		3AFF7E2423D8E898009268D6 /* CompletedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF7E2323D8E898009268D6 /* CompletedTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +67,8 @@
 		3AD2A15423D5EE4100A293A7 /* TodoList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoList.m; sourceTree = "<group>"; };
 		3AD2A15623D724D700A293A7 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		3AD2A15723D724D700A293A7 /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
-		3AD2A15F23D763B100A293A7 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
-		3AD2A16023D763B100A293A7 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		3AFF7E2223D8E898009268D6 /* CompletedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompletedTableViewCell.h; sourceTree = "<group>"; };
+		3AFF7E2323D8E898009268D6 /* CompletedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompletedTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +132,8 @@
 				3AD2A15723D724D700A293A7 /* Singleton.m */,
 				3A50948623D5BD7A004F182E /* SceneDelegate.m */,
 				3A50948B23D5BD7A004F182E /* Main.storyboard */,
-				3AD2A15F23D763B100A293A7 /* TableViewCell.h */,
-				3AD2A16023D763B100A293A7 /* TableViewCell.m */,
+				3AFF7E2223D8E898009268D6 /* CompletedTableViewCell.h */,
+				3AFF7E2323D8E898009268D6 /* CompletedTableViewCell.m */,
 				3A5094BA23D5CA2F004F182E /* NewTaskViewController.h */,
 				3A5094BB23D5CA2F004F182E /* NewTaskViewController.m */,
 				3A50948E23D5BD7B004F182E /* Assets.xcassets */,
@@ -296,8 +296,8 @@
 				3AD2A15823D724D700A293A7 /* Singleton.m in Sources */,
 				3AD2A15223D5EB6600A293A7 /* Todo.m in Sources */,
 				3A50949523D5BD7B004F182E /* main.m in Sources */,
-				3AD2A16123D763B100A293A7 /* TableViewCell.m in Sources */,
 				3A5094BC23D5CA2F004F182E /* NewTaskViewController.m in Sources */,
+				3AFF7E2423D8E898009268D6 /* CompletedTableViewCell.m in Sources */,
 				3AD2A15523D5EE4100A293A7 /* TodoList.m in Sources */,
 				3A50948723D5BD7A004F182E /* SceneDelegate.m in Sources */,
 				3AD2A14F23D5DC0900A293A7 /* ViewController.m in Sources */,
