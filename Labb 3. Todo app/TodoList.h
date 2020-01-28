@@ -16,9 +16,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) NSMutableArray *todoItems;
 @property (nonatomic) NSMutableArray *completedItems;
 @property (nonatomic) NSMutableArray *favoriteItems;
-- (void) createTodo:(NSString*) name;
 
+- (void) createTodo:(NSString*) name;
 - (NSInteger) getSize;
+
+- (NSMutableArray*) convertTodosToArr;
+- (NSMutableArray *)convertCompletedToArr;
+- (NSMutableArray *)convertImportantToArr;
+//- (NSMutableArray*) convertDisctionaryToTodos:(NSDictionary*) dictionary;
+
+
+
 
 
 @end

@@ -15,8 +15,6 @@
     self = [super init];
     if (self) {
         self.name = name;
-        self.isFinished = NO;
-        self.isImportant = NO;
     }
     return self;
 }
@@ -25,9 +23,9 @@
     return self.name;
 }
 
-- (BOOL) isFinished {
-    return NO;
-}
+
+
+
 
 
 

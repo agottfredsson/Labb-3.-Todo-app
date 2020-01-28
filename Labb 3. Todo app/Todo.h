@@ -13,11 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Todo : NSObject
 
 @property (nonatomic, strong) NSString* name;
-@property (nonatomic) BOOL isImportant;
-@property (nonatomic) BOOL isFinished;
 - (instancetype)initWithName:(NSString *) name;
 - (NSString*) getTodo;
-- (BOOL) isFinished;
+
+
 
 
 @end
