@@ -24,12 +24,9 @@
     _todoList = [[TodoList alloc] init];
     
     [self loadState];
-    
     [self.navigationItem setTitle:@"Checklist"];
-    
     self.tableViewOutlet.delegate = self;
     self.tableViewOutlet.dataSource = self;
-    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -38,7 +35,6 @@
     }
     [self.tableViewOutlet reloadData];
     [[Singleton Instance] SetData:@""];
-    
     [self saveState];
 
 }
@@ -116,7 +112,6 @@ default:
         [_todoList.completedItems addObject:_todoList.todoItems[indexPath.row]];
         [_todoList.todoItems removeObjectAtIndex:indexPath.row];
         [self.tableViewOutlet reloadData];
-        
         [self saveState];
     }
 }
@@ -128,10 +123,7 @@ default:
     if(indexPath != nil){
         [_todoList.completedItems removeObjectAtIndex:indexPath.row];
         [self.tableViewOutlet reloadData];
-        
-        
         [self saveState];
-        
     }
 }
 
@@ -143,7 +135,6 @@ default:
         [_todoList.completedItems addObject:_todoList.favoriteItems[indexPath.row]];
         [_todoList.favoriteItems removeObjectAtIndex:indexPath.row];
         [self.tableViewOutlet reloadData];
-        
         [self saveState];
     }
 }
@@ -156,9 +147,7 @@ default:
         [_todoList.favoriteItems addObject:_todoList.todoItems[indexPath.row]];
         [_todoList.todoItems removeObjectAtIndex:indexPath.row];
         [self.tableViewOutlet reloadData];
-        
         [self saveState];
-        
     }
 }
 
@@ -166,7 +155,6 @@ default:
     NSMutableArray *todos = [[NSMutableArray alloc]init];
     NSMutableArray *todosComplete = [[NSMutableArray alloc]init];
     NSMutableArray *todosImportant = [[NSMutableArray alloc]init];
-    
     NSUserDefaults *userDef = [NSUserDefaults standardUserDefaults];
     
     todos = [self.todoList convertTodosToArr];
@@ -177,10 +165,6 @@ default:
     [userDef setObject:todosComplete forKey:@"todocomplete"];
     [userDef setObject:todosImportant forKey:@"todoimportant"];
     [userDef synchronize];
-    
-    NSLog(@"saved todo : %@", [[NSUserDefaults standardUserDefaults] objectForKey:@"todoitems"]);
-    NSLog(@"saved important : %@", [[NSUserDefaults standardUserDefaults] objectForKey:@"todoimportant"]);
-    NSLog(@"saved complete : %@", [[NSUserDefaults standardUserDefaults] objectForKey:@"todocomplete"]);
 }
 
 -(void) loadState {
